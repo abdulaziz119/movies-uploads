@@ -1,0 +1,5 @@
+export const UZUM_MARKET_SOURCE = 'MOVIES-UPLOADS_SOURCE';
+
+export const MODELS = {
+  UPLOADS: 'UPLOADS',
+};
