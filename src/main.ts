@@ -10,7 +10,7 @@ async function bootstrap() {
 
   app.setGlobalPrefix('api');
   app.use(
-    '/image',
+    'uploads/images',
     express.static(path.resolve(process.cwd(), 'uploads', 'images')),
   );
   app.use(bodyParser.json({ limit: '100mb' }));
